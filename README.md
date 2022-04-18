@@ -2,7 +2,7 @@
 
 Github: https://github.com/patty345/patricia-portfolio
 
-Deployed App: 
+Deployed App: https://patty345.github.io/patricia-portfolio/
 
 # Description
 
