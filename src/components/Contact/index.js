@@ -1,113 +1,110 @@
-import React, { useState } from "react";
-import { capitalizeFirstLetter } from '../../utils/helpers';
-import { validateEmail } from "../../utils/helpers";
+import React from 'react';
+// import { validateEmail } from '../../utils/helper';
+import { Row, Col } from 'react-bootstrap'; 
+import Resume from '../../assets/images/Patricia_Derieux_Resume.pdf'
 
-function Contact() {
-    const [pages] = useState([
-        {
-            name: 'contact'
-        }
-    ]);
+function ContactForm() {
+    
+return (
+    <section>
+        <h1 data-testid='h1tag' className="contact">contact me</h1>
 
-    const [currentPage] = useState(pages[0]);
+        <div className="contact-icons">
+        <Row>
+            <Col lg={3} md={12}>
+            <a href="https://github.com/patty345"><img src="https://img.icons8.com/doodle/100/000000/github--v1.png" alt="github-logo" class="icon"/></a><p class="icon-text">github</p>
+            </Col>
 
-    const [formState, setFormState] = useState({
-        name: '',
-        email: '',
-        message: '',
-    });
+            <Col lg={3} md={12}>
+            <a href="https://www.linkedin.com/in/patricia-derieux/"><img src="https://img.icons8.com/doodle/100/000000/linkedin--v2.png" alt="linkedin-logo" class="icon"/></a><p class="icon-text">linkedin</p>
+            </Col>
 
-    const [errorMessage, setErrorMessage] = useState('');
-    const { name, email, message } = formState;
+            <Col lg={3} md={12}>
+            <a href="mailto:patricia.derieux15@outlook.com"><img src="https://img.icons8.com/doodle/120/000000/new-post.png" alt="mail-logo"/></a><p class="icon-text">email</p>
+            </Col>
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        if (!errorMessage) {
-            console.log('Submit Form', formState);
-        }
-    };
+            <Col lg={3} md={12}>
+            <a href={Resume} download><img src="https://img.icons8.com/doodle/120/000000/pdf-2.png" alt="resume" /></a><p class="icon-text">resume</p>
+            </Col>
+        </Row>
+        </div>
 
-    const handleChange = (e) => {
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-            if (!isValid) {
-                setErrorMessage('Your email is invalid.');
-            } else {
-                setErrorMessage('');
-            }
-        } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
-            } else {
-                setErrorMessage('');
-            }
-        }
-        if (!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value });
-            console.log('Handle Form', formState);
-        }
-    };
+        <div class="resume-container">
+            <Row>
+                <Col lg={4} md={12}>
+                <h2 class="resume">font-end technologies</h2>
+                <ul>
+                    <li>
+                        HTML
+                    </li>
+                    <li>
+                        CSS
+                    </li>
+                    <li>
+                        JavaScript
+                    </li>
+                    <li>
+                        jQuery
+                    </li>
+                    <li>
+                        React.js
+                    </li>
+                    <li>
+                        Framework (Bootstrap, Materalize)
+                    </li>
+                    <li>
+                        UI/UX Design
+                    </li>
+                    <li>
+                        Responsive Web Design
+                    </li>
+                </ul>
+                </Col>
+        
+            <Col lg={4} md={12}>
+            <h2 class="resume">back-end technologies</h2>
+                <ul>
+                    <li>
+                        Node.js
+                    </li>
+                    <li>
+                        Express.js
+                    </li>
+                    <li>
+                        MySQL (mysql lite3, mysql2)
+                    </li>
+                    <li>
+                        NoSQL (MongoDB, Mongoose)
+                    </li>
+                    <li>
+                        API's (web, third-party, RESTful, server-side)
+                    </li>
+                    <li>
+                        Templating language (Handlebars)
+                    </li>
+                </ul>
+            </Col>
 
-    return (
-        <section className="bg-dark">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-10 mx-auto text-white mb-4">
-                    <h1 className="text-center">{capitalizeFirstLetter(currentPage.name)}</h1>
-                        <hr className="light my-4" />
-                        <form id="contact-form" onSubmit={handleSubmit} className="mb-5">
-                            <div>
-                                <label htmlFor="name">Name:</label>
-                                <input
-                                    className="form-control"
-                                    placeholder="Name"
-                                    type="text"
-                                    name="name"
-                                    defaultValue={name}
-                                    onBlur={handleChange}
-                                />
-                            </div>
-                            <div>
-                                <label htmlFor="email">Email address:</label>
-                                <input
-                                    className="form-control"
-                                    placeholder="Email"
-                                    type="email"
-                                    name="email"
-                                    defaultValue={email}
-                                    onBlur={handleChange}
-                                />
-                            </div>
-                            <div>
-                                <label htmlFor="message">Message:</label>
-                                <textarea
-                                    className="form-control"
-                                    placeholder="Message"
-                                    name="message"
-                                    rows="5"
-                                    defaultValue={message}
-                                    onBlur={handleChange}
-                                />
-                            </div>
-                            {errorMessage && (
-                                <div>
-                                    <p className="error-text">{errorMessage}</p>
-                                </div>
-                            )}
-                            <div className="text-center">
-                            <button type="submit" className="btn btn-primary btn-xl js-scroll-trigger">Submit</button>
-                            </div>
-                        </form>
+        <Col lg={4} md={12}>
+        <h2 class="education">my education</h2>
+        <p>
+          <span className="school-name">RICE  UNIVERSITY</span><br></br>
+          Full Stack Boot Camp - Certification 
+          <br></br>
+          <br></br>
+          <span className="school-name">UNIVERISTY OF HOUSTON</span><br></br>
+          Computer Information Systems - BS
+          <br></br>
+          <br></br>
+        </p>
+        </Col>
+        </Row>
+        </div>
 
-                        <h4>
-                            Patricia Derieux <br />
-                            Or simply send me an email at: <a href='mailto: patricia.derieux15@outlook.com'>patricia.derieux15@outlook.com</a>
-                        </h4>
-                        </div>
-                </div>
-            </div>
-        </section>
+    </section>
     );
 }
+    
+export default ContactForm;
 
-export default Contact;
+    

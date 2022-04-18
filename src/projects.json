@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Budget Tracker",
+    "image": "https://raw.githubusercontent.com/patty345/budget-tracker/main/public/images/MainPage.png",
+    "github": "https://github.com/patty345/budget-tracker",
+    "deployedapp": "https://budget-tracker-2456.herokuapp.com/",
+    "description": "An application that allows users to create new transactions for deposit or widthdrawls, with or without internet connection .",
+    "skills": "Node.js | Express | MongoDB | Mongoose | Progressive Web Application"
+    },
+    {
+    "id": 2,
+    "name": "Park Finder",
+    "image": "https://raw.githubusercontent.com/patty345/park-finder/main/assets/Images/Desktop-Screenshot.png",
+    "github": "https://github.com/patty345/park-finder",
+    "deployedapp": "https://patty345.github.io/park-finder/",
+    "description": "An easy way to find parks near you.",
+    "skills": "HTML | CSS | JavaScript | Foundation | API"
+    },
+    {
+    "id": 3,
+    "name": "Teach Bot",
+    "image": "https://raw.githubusercontent.com/moonryc/Teach-Bot/main/public/images/Questions.png",
+    "github": "https://github.com/moonryc/Teach-Bot",
+    "deployedapp": " https://teach-bot-ai.herokuapp.com/",
+    "description": "As a Student JavaScript is confusing sometimes and I have questions at late hours when nobody is awake. In order to hand in my assignments, I need help! Introducing Teach-Bot, a Machine learning based AI Javascript tutor!",
+    "skills": "Express | MySQL2 | API | Handlebars | MVC | ORM | Express"
+    },
+    {
+    "id": 4,
+    "name": "Note Taker",
+    "image": "https://raw.githubusercontent.com/patty345/note-taker/main/public/assets/images/LandingPage.png",
+    "github": "https://github.com/patty345/note-taker",
+    "deployedapp": "https://note-taker-9625.herokuapp.com/",
+    "description": "This application captures notes by using the CRUD method",
+    "skills": "Node.js | Express.js | NPM"
+    },
+    {
+    "id": 5,
+    "name": "Password Generator",
+    "image": "https://raw.githubusercontent.com/patty345/Password_Generator/main/Develop/images/landingpage.png",
+    "github": "https://github.com/patty345/Password_Generator",
+    "deployedapp": "https://patty345.github.io/Password_Generator/",
+    "description": "An application where it randomly creates a passowrd based on the criteria selected.",
+    "skills": "JavaScript | HTML | CSS"
+    },
+    {
+    "id": 6,
+    "name": "Work Day Scheduler",
+    "image": "https://raw.githubusercontent.com/patty345/Work-Day_Scheduler/main/assets/images/LandingPage.png",
+    "github": "https://github.com/patty345/Work-Day_Scheduler",
+    "deployedapp": "https://patty345.github.io/Work-Day_Scheduler/",
+    "description": "This application uses third-party API and JavaScript to create a calendar-style scheduler allowing users to save events for each hour of the day.",
+    "skills": "JavaScript | jQuery | API | DOM"
+    },
+    {
+    "id": 7,
+    "name": "Weather Dashboard",
+    "image": "https://raw.githubusercontent.com/patty345/Weather-Dashboard/main/assets/images/WeatherDashboard.png",
+    "github": "https://github.com/patty345/Weather-Dashboard",
+    "deployedapp": "https://patty345.github.io/Weather-Dashboard/",
+    "description": "This application is able to return different cities weather and temperature information.",
+    "skills": "HTML | CSS | JavaScript| API"
+    }
+]
