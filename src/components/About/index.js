@@ -15,14 +15,7 @@ function About() {
       <p class="job">full stack web developer</p>
       <h2 class="education">about me</h2>
         <p>
-        Hello, I'm Patricia! I switched my gears from my education in Business to take on Web Development to keep challenging myself in ways I thought I never could. 
-        Web Development allows me to continually create and creatively find new ways to make processes better. I always believed that anything can be improved and 
-        there are different ways to solve problems.
-        <br></br>
-        <br></br>
-        With that being said, I am Full Stack Web Developer based in the San Francisco Bay Area with a Bachelor’s Degree and 2+ years professional experience in Business Administration combined 
-        with 3 different Liberal Arts Associate’s Degrees. I am a naturally curious person which makes me want to always learn new things. I am a problem-solver who 
-        questions everything. I am a hard worker who doesn't take life too seriously and enjoys the little things. You will always find a smile on my face.
+        A self-motivated full stack Web Developer with IT experience ready to make an impact in the field. Brining 7 years of work experience in IT as an Application Analyst where I have learned to be communicative, self-motivated, team-oriented, and problem-solver. Recently earned a certificate in Full Stack Development from the University of Rice with newly developed skills in HTML, CSS, Javascript, and responsive web design. Passionate in creating new applications that engage users' experience. Worked in a collaborative team to create a MERN application that tracks inventory for the organization. It is my technical expertise, passion, and leadership that make me an advantageous candidate for any team
         <br></br>
         <br></br>
          </p>
