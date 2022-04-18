@@ -33,3 +33,13 @@ Deployed App:
 # Usage
 
 This application is my personal portolio built in React
+
+# Screen Captions
+
+[!LandingPage](./src/assets/images/PortfolioLandingpage.png)
+
+# Technologies Used
+
+- React
+- Node.js
+- Bootstrap
