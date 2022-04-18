@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
+import Nav from './components/Nav';
+import Page from './components/Page';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
   const [pages] = useState([
@@ -13,12 +17,12 @@ function App() {
 
   return (
     <div>
-      <header>
+      <Header>
         <Nav 
             pages={pages}
             setCurrentPage={setCurrentPage}
             currentPage={currentPage}></Nav>
-      </header>
+      </Header>
       <main>
         <Page currentPage={currentPage}></Page>
       </main>
