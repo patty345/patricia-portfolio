@@ -1,7 +1,7 @@
 {
   "main.css": "/patricia-portfolio/static/css/main.23d0aed5.chunk.css",
-  "main.js": "/patricia-portfolio/static/js/main.96b37918.chunk.js",
-  "main.js.map": "/patricia-portfolio/static/js/main.96b37918.chunk.js.map",
+  "main.js": "/patricia-portfolio/static/js/main.1d758fe8.chunk.js",
+  "main.js.map": "/patricia-portfolio/static/js/main.1d758fe8.chunk.js.map",
   "static/css/1.f36d58c5.chunk.css": "/patricia-portfolio/static/css/1.f36d58c5.chunk.css",
   "static/js/1.0b6b8c24.chunk.js": "/patricia-portfolio/static/js/1.0b6b8c24.chunk.js",
   "static/js/1.0b6b8c24.chunk.js.map": "/patricia-portfolio/static/js/1.0b6b8c24.chunk.js.map",
@@ -10,9 +10,9 @@
   "static/media/ProfilePicture.jpg": "/patricia-portfolio/static/media/ProfilePicture.6bf83621.jpg",
   "static/media/Patricia_Derieux_Resume.pdf": "/patricia-portfolio/static/media/Patricia_Derieux_Resume.17cddc6d.pdf",
   "static/media/ShadowsIntoLight-Regular.ttf": "/patricia-portfolio/static/media/ShadowsIntoLight-Regular.47c22e0a.ttf",
-  "static/css/1.f36d58c5.chunk.css.map": "/patricia-portfolio/static/css/1.f36d58c5.chunk.css.map",
   "static/css/main.23d0aed5.chunk.css.map": "/patricia-portfolio/static/css/main.23d0aed5.chunk.css.map",
+  "static/css/1.f36d58c5.chunk.css.map": "/patricia-portfolio/static/css/1.f36d58c5.chunk.css.map",
   "index.html": "/patricia-portfolio/index.html",
-  "precache-manifest.defaafb866a611d1ee575004f151010a.js": "/patricia-portfolio/precache-manifest.defaafb866a611d1ee575004f151010a.js",
+  "precache-manifest.ce7716fda9e4a36ec1dd3fa767ba20aa.js": "/patricia-portfolio/precache-manifest.ce7716fda9e4a36ec1dd3fa767ba20aa.js",
   "service-worker.js": "/patricia-portfolio/service-worker.js"
 }
