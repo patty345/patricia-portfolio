@@ -61,5 +61,14 @@
     "deployedapp": "https://patty345.github.io/Weather-Dashboard/",
     "description": "This application is able to return different cities weather and temperature information.",
     "skills": "HTML | CSS | JavaScript| API"
-    }
+    },
+    {
+      "id": 8,
+      "name": "News For You",
+      "image": "https://github.com/DerpVoltz/news-for-you/blob/main/client/images/LandingPage.png?raw=true",
+      "github": "https://github.com/DerpVoltz/news-for-you",
+      "deployedapp": "https://nameless-fjord-29662.herokuapp.com/",
+      "description": "This is a website for reading news articles. News articles will be housed on the website. Then as a user you can create an account, and view all of the articles",
+      "skills": "MERN | CSS | JavaScript| API | JWT | GraphQL"
+      }
 ]
