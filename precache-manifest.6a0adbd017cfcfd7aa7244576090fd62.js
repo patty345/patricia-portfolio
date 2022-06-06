@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1d758fe8328402f063f2",
+    "revision": "f2153cb377d4aa64d0b2",
     "url": "/patricia-portfolio/static/css/main.23d0aed5.chunk.css"
   },
   {
-    "revision": "1d758fe8328402f063f2",
-    "url": "/patricia-portfolio/static/js/main.1d758fe8.chunk.js"
+    "revision": "f2153cb377d4aa64d0b2",
+    "url": "/patricia-portfolio/static/js/main.f2153cb3.chunk.js"
   },
   {
     "revision": "0b6b8c241208240ed2f3",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/patricia-portfolio/static/media/ShadowsIntoLight-Regular.47c22e0a.ttf"
   },
   {
-    "revision": "7e5011dc17ed26a7569d1d649d8f3bf2",
+    "revision": "ceab0457e4de7740812f7a944807f4a7",
     "url": "/patricia-portfolio/index.html"
   }
 ];

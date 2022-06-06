@@ -1,7 +1,7 @@
 {
   "main.css": "/patricia-portfolio/static/css/main.23d0aed5.chunk.css",
-  "main.js": "/patricia-portfolio/static/js/main.1d758fe8.chunk.js",
-  "main.js.map": "/patricia-portfolio/static/js/main.1d758fe8.chunk.js.map",
+  "main.js": "/patricia-portfolio/static/js/main.f2153cb3.chunk.js",
+  "main.js.map": "/patricia-portfolio/static/js/main.f2153cb3.chunk.js.map",
   "static/css/1.f36d58c5.chunk.css": "/patricia-portfolio/static/css/1.f36d58c5.chunk.css",
   "static/js/1.0b6b8c24.chunk.js": "/patricia-portfolio/static/js/1.0b6b8c24.chunk.js",
   "static/js/1.0b6b8c24.chunk.js.map": "/patricia-portfolio/static/js/1.0b6b8c24.chunk.js.map",
@@ -13,6 +13,6 @@
   "static/css/main.23d0aed5.chunk.css.map": "/patricia-portfolio/static/css/main.23d0aed5.chunk.css.map",
   "static/css/1.f36d58c5.chunk.css.map": "/patricia-portfolio/static/css/1.f36d58c5.chunk.css.map",
   "index.html": "/patricia-portfolio/index.html",
-  "precache-manifest.ce7716fda9e4a36ec1dd3fa767ba20aa.js": "/patricia-portfolio/precache-manifest.ce7716fda9e4a36ec1dd3fa767ba20aa.js",
+  "precache-manifest.6a0adbd017cfcfd7aa7244576090fd62.js": "/patricia-portfolio/precache-manifest.6a0adbd017cfcfd7aa7244576090fd62.js",
   "service-worker.js": "/patricia-portfolio/service-worker.js"
 }
